@@ -9,6 +9,7 @@ import { PostFullHeader, PostFullTitle, NoImage, PostFull } from '../templates/p
 import { PostFullContent } from '../components/PostContent';
 import Footer from '../components/Footer';
 import Helmet from 'react-helmet';
+import img from '../content/img/imageedit_1_2716264277.jpg';
 
 const PageTemplate = css`
   .site-main {
@@ -18,10 +19,10 @@ const PageTemplate = css`
 `;
 
 
-const About: React.FunctionComponent = () => (
+const PhotoCredits: React.FunctionComponent = () => (
   <IndexLayout>
     <Helmet>
-      <title>About</title>
+      <title>Photo Credits</title>
     </Helmet>
     <Wrapper css={PageTemplate}>
       <header css={[outer, SiteHeader]}>
@@ -32,23 +33,18 @@ const About: React.FunctionComponent = () => (
       <main id="site-main" className="site-main" css={[SiteMain, outer]}>
         <article className="post page" css={[PostFull, NoImage]}>
           <PostFullHeader>
-            <PostFullTitle>About</PostFullTitle>
+            <PostFullTitle>Photo Credits</PostFullTitle>
           </PostFullHeader>
 
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                Hello, I am Rakesh Tembhurne. I am a developer from Nagpur, India. I love programming, reading and travelling. I have worked on creating rapid web applications with web app frameworks and technologies.
+                I am a developer but I really love art works. I have been lucky enough to have artist friends like <a href="https://www.facebook.com/mahesh.mankarmmm007.9">Mahesh Mankar</a>, <a href="https://www.facebook.com/mayur.msmart">Mayur Chimote</a> from whom I keep on getting art inspirations.
               </p>
               <p>
-                Speaking more technical, I am a full stack developer with 7+ years of experience in LAMP, LEMP and NodeJS technologies.
+                The following image, which is also used on the main blog, is a work by Mahesh Mankar.
               </p>
-              <p>
-                If you want to connect with me on Facebook, click like press like button on <a href="https://www.facebook.com/rakesh.tembhurne">my Facebook Page</a>, or if you want to add me to your circles, visit <a href="https://plus.google.com/+RakeshTembhurne">my Google+ profile</a>, or you can follow me <a href="https://twitter.com">(@tembhurnerakesh)</a> on twitter.
-              </p>
-              <p>
-                Further if you wish to get regular updates of my blog, you can subscribe to the RSS feed of the blog.
-              </p>
+              <img src={img} alt="image" />
             </div>
           </PostFullContent>
         </article>
@@ -58,4 +54,4 @@ const About: React.FunctionComponent = () => (
   </IndexLayout>
 );
 
-export default About;
+export default PhotoCredits;
