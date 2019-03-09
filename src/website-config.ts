@@ -31,8 +31,8 @@ export interface WebsiteConfig {
 const config: WebsiteConfig = {
   title: 'Rakesh Tembhurne',
   description: 'Full Stack (L*MP, MEAN) Developer, Fan of Artworks',
-  coverImage: 'img/blog-cover.jpg',
-  logo: 'img/ghost-logo.png',
+  coverImage: 'img/imageedit_1_2716264277.jpg',
+  logo: 'avatars/rakesh_tembhurne.jpeg',
   lang: 'en',
   siteUrl: 'https://rakesh.tembhurne.com',
   facebook: 'https://www.facebook.com/tembhurner',
