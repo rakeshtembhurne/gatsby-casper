@@ -16,11 +16,11 @@ collections:
     slug: "{{slug}}" 
     fields:
       - { name: title, label: Title }
-      - { name: "image", label: "image", widget: "image" }
+      - { name: image, label: image, widget: image }
       - { name: author, label: author }
       - { name: slug, label: slug }
       - { name: date, label: Date, widget: date }
       - { name: date_updated, label: date_updated, widget: date }
       - { name: tags, label: tags }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true}
+      - { label: Draft, name: draft, widget: boolean, default: true}
       - { name: body, label: Body, widget: markdown }
