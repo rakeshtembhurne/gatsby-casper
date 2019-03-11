@@ -33,6 +33,9 @@ module.exports = {
           'gatsby-remark-smartypants',
           'gatsby-remark-abbr',
           {
+            resolve: `gatsby-remark-relative-images`,
+          },
+          {
             resolve: 'gatsby-remark-images',
             options: {
               // maxWidth: 1170,
