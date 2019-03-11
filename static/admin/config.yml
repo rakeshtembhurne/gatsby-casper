@@ -5,9 +5,9 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "src/content/img"
+media_folder: "public/img"
 # media_folder: static/img
-public_folder: "static"
+public_folder: "img"
 
 collections:  
   - name: blog
