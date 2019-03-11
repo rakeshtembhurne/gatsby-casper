@@ -1,6 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   repo: rakeshtembhurne/gatsby-casper #replace with your username/repo
+  branch: master
 
 publish_mode: editorial_workflow
 
