@@ -1,6 +1,6 @@
 ---
 title: How to Future Proof Your IT Career
-image: /img/mask.png
+image: /img/align-center-2x.png
 author: Rakesh Tembhurne
 slug: how-to-future-proof-your-career-in-it
 date: 2017-08-03T08:07:03.000Z
