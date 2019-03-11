@@ -1,6 +1,6 @@
 ---
 title: 15 Myths and Misconceptions about Viruses and Security Applications
-image: img/alex-knight-326705-unsplash.jpg
+image: /img/imageedit_1_2716264277.jpg
 author: Rakesh Tembhurne
 slug: 15-myths-and-misconceptions-about-viruses-and-security-applications
 date: 2011-05-10T09:29:06.000Z
