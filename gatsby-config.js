@@ -35,8 +35,8 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 1170,
-              quality: 100,
+              // maxWidth: 1170,
+              // quality: 100,
             },
           },
         ],
@@ -78,6 +78,21 @@ module.exports = {
         // Determines how often site speed tracking beacons will be sent
         siteSpeedSampleRate: 10,
       },
+    },
+    `gatsby-plugin-netlify-cms`, {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content`,
+        name: 'markdown-pages',
+      },
+    },
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/content/img`,
+        name: 'images'
+      }
     },
   ],
 };
