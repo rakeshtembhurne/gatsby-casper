@@ -21,6 +21,7 @@ It is because our education system makes us believe that, it takes high score on
 Programming is a skill, and it has to be acquired. It needs focused approach, dedication, years of practice and **the most important - understanding of what not to learn** to become a good programmer.
 
 ### Switch To Linux/Mac
+
 Lots of students use Windows OS because *it's easy.* But that's where they go wrong. 
 
 Programmer's job is not to *use* easy software, but to build ones that are easier to use, and that requires power tools. 
