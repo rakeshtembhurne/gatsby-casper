@@ -1,6 +1,6 @@
 ---
 title: 16 Must Have Free Desktop Software
-image: /public/alex-knight-326705-unsplash.jpg
+image: /public/img/imageedit_1_2716264277.jpg
 author: Rakesh Tembhurne
 slug: 16-must-have-free-desktop-software
 date: 2011-06-09T13:42:56.000Z
@@ -8,7 +8,7 @@ date_updated: 2011-06-09T13:42:56.000Z
 tags:
   - Frameworks
   - Security Applications
-draft: false
+draft: true
 ---
 
 ## Framework and Runtime Environments
