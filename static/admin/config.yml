@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: rakeshtembhurne/gatsby-casper #replace with your username/repo
+  base_url: https://rakeshtembhurne.netlify.com/
 
 publish_mode: editorial_workflow
 
